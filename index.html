@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <Header>
@@ -12,21 +13,22 @@
             <span><a href="">Home</a></span>
             <span><a href="">About me</a></span>
             <span><a href="">WORK EXPERIENCE</a></span>
-            <span><a href="contactme.html">Contact me</a></span>
+            <span id="contactme"><a href="contactme.html">Contact me</a></span>
         </nav>
-        <div>
+        <div id="title">
             <h1>Cristian Camilo Niño Guzmán</h1>
             <h2>Front End Developer</h2>
-            <hr>
+           
         </div>
     </Header>
-    <main>
-        <section>
+    <main class="main-bg">
+        <section class="sec1">
             <h2>About me</h2>
             <p>I am a Graphic Designer, I born in 1986, i am form Bogota, Colombia, i like movies, soccer and video games, i would like meet Australia and Canada the next year, my principal skills are web design (HTML, JS, CSS), .</p>
-            <hr>
+            
         </section>
-        <section>
+        <div class="box-sec">
+        <section class="left">
             <h2> WORK EXPERIENCE</h2>
             <ol>
                 <li>Servi Plotter Bulevar Graphic Designer</li>
@@ -36,7 +38,7 @@
             </ol>
             <hr>
         </section>
-        <section>
+        <section class="right">
             <article>
                 <h3>EDUCATION</h3>
                 <ul>
@@ -53,7 +55,8 @@
             </article>
             <hr>
         </section>
-        <section>
+    </div>
+        <section class="skills">
             <div><h4>SOFTWARE AND SKILLS</h4></div>
             <article>
                 <div>HTML </div>
